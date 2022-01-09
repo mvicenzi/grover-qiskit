@@ -5,7 +5,7 @@ Example code written in Qiskit for solving a generic search problem using Grover
 * The oracle is implemented via a classical function `f(x)` and should be modified accordingly if attempting to scale to a different number of items/solutions.
 * The implementation requires 4 qubits representing all the 16 items as quantum states, plus 1 additional ancilla qubit needed for the oracle.
 * The simulation shows optimal results for 2 Grover iterations, as expected from theory.
-* Running an real 5-qubit IBM devices currently fails; it may be the circuit is too deep/not optimized enough to be transposed to real hardware without applying some error correction.
+* Running on real 5-qubit IBM devices currently fails; it may be the circuit is too deep/not optimized enough to be transposed to real hardware without applying some error correction.
 
 ## References
 * Qiskit textbook, chapter 3.8, "Grover's algorithm", [LINK](https://qiskit.org/textbook/ch-algorithms/grover.html#introduction)
